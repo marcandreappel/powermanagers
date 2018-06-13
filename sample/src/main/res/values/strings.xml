@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Powermanagers</string>
+    <string name="powermanager_present">Il n\'y a aucun gestionnaire d\'alimentation</string>
+    <string name="powermanager_absent">Un gestionnaire d\'alimentation est présent</string>
+    <string name="open_powermanager">Ouvrir le gestionnaire</string>
+</resources>
