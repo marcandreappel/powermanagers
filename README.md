@@ -3,7 +3,7 @@ An Android library to check for installed power managers on the phone, like some
 
 ## Installation
 Add the following to your project build.gradle:
-```
+```gradle
 allprojects {
   repositories {
     ...
@@ -13,7 +13,7 @@ allprojects {
 ```
 
 and in your app/build.gradle add:
-```
+```gradle
 android {
   ...
   dependencies {
@@ -25,7 +25,7 @@ android {
 ## Implementation
 In any (but preferably the earliest) activity add under ``onCreate``:
 
-```
+```kotlin
 // Check for the presence of a powermanager
 val powermanagerIntent: Intent? = Powermanagers.present(this)
 
